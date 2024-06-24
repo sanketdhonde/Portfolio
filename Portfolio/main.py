@@ -12,8 +12,16 @@ with col2:
      As these domians continue to shape the future of technology ,I am at forefront of innovation , exploring the intersection of data-driven insights and intelligent systems . 
      So i am in studying mode of more language for data analysis and ai. make it perfect
      """
-
     st.info(content)
+
+
+
+
+content2 = """
+Below you can find some of my work done on python . Feel free to contact me
+"""
+
+st.write(content2)
 
 
 
