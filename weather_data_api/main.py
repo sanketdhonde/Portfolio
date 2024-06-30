@@ -1,7 +1,9 @@
 from flask import Flask, render_template
+import pandas as pd
 
 app = Flask(__name__)
 
+df = pd.read_csv()
 @app.route("/")
 def home():
     return render_template("home.html")
@@ -10,8 +12,8 @@ def home():
 def about(station, date):
     temperature=23
     return {"station": station,
-            "date": date
+            "date": date,
             "temperature": temperature}
 
-if __name__ ="__main__":
+if __name__ == "__main__":
     app.run(debug = True)
